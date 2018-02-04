@@ -1,3 +1,5 @@
+package barBossHouse;
+
 public class Dish {
    double cost;
    String name, desciption;

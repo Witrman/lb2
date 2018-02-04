@@ -1,6 +1,5 @@
-import com.sun.org.apache.xpath.internal.operations.Or;
+package barBossHouse;
 
-import java.util.Arrays;
 import java.util.Objects;
 
 public class Order {
@@ -30,7 +29,7 @@ public class Order {
         return false;
     }
 
-    void doubleOrderDishes()
+    private void doubleOrderDishes()
     {
         Dish[] dishes1 = new Dish[dishes.length*2];
         for (int i = 0; i < dishes.length; i++) {
@@ -146,16 +145,7 @@ Dish[] sortedDishesByCostDesc()
 
 
 
-    void pr()
-     {
-         for (int i = 0; i < dishes.length; i++) {
-             if (dishes[i] != null)
-             {
-                 System.out.println(i+"    "+dishes[i].getName());
-             }
-         }
 
-     }
 
 
 }
